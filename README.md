@@ -62,10 +62,10 @@ I used Schema Model for the Data Warehouse.
     title: Hello
 ---
 erDiagram
-    DATE_DIM ||--|{ HS_FCT : hi
-    TIME_DIM ||--|{ HS_FCT : hi
-    HS_FCT }|--|| REG_DIM : hi
-    HS_FCT }|--|| SAT_DIM : hi
+    DATE_DIM ||--|{ Hotspot_FCT : hi
+    TIME_DIM ||--|{ Hotspot_FCT : hi
+    Hotspot_FCT }|--|| REG_DIM : hi
+    Hotspot_FCT }|--|| SAT_DIM : hi
 ```
 
 ## Tech Stack
