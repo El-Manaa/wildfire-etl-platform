@@ -56,16 +56,16 @@ flowchart
 ```
 
 ## Data Model
-I used Schema Model for the Data Warehouse.
+I used Star Schema Model for the Data Warehouse.
 ```mermaid
 ---
     title: Hello
 ---
 erDiagram
-    DATE_DIM ||--|{ Hotspot_FCT : hi
-    TIME_DIM ||--|{ Hotspot_FCT : hi
-    Hotspot_FCT }|--|| REG_DIM : hi
-    Hotspot_FCT }|--|| SAT_DIM : hi
+    Date_Dim ||--|{ Hotspot_Fct : hi
+    Time_Dim ||--|{ Hotspot_Fct : hi
+    Hotspot_Fct }|--|| Region_Dim : hi
+    Hotspot_Fct }|--|| Satellite_Dim : hi
 ```
 
 ## Tech Stack
