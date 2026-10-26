@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<reversegeocode
+    timestamp="Tue, 13 Oct 2026 18:45:10 +00:00" attribution="Data ©
+    OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright"
+    querystring="lat=-9.91691&amp;lon=-52.875009&amp;format=xml">
+      <result place_id="12619439" osm_type="relation" osm_id="333689"
+        ref="Peixoto de Azevedo" lat="-10.2429203" lon="-54.9919857"
+        boundingbox="-10.7776429,-9.6110077,-55.1539337,-52.6199023"
+        place_rank="16" address_rank="16">
+          Peixoto de Azevedo, Mato Grosso,
+          Região Centro-Oeste, Brasil
+      </result>
+  <addressparts>
+    <town>Peixoto de Azevedo</town>
+    <state>Mato Grosso</state>
+    <ISO3166-2-lvl4>BR-MT</ISO3166-2-lvl4>
+    <region>Região Centro-Oeste</region>
+    <country>Brasil</country>
+    <country_code>br</country_code>
+  </addressparts>
+</reversegeocode>
